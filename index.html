@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Project tracking intro component</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container" id="nav">
+        <img src="images/logo.svg" alt="navigation logo" class="nav__logo" />
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#" class="nav__link">PRODUCT</a></li>
+            <li><a href="#" class="nav__link">FEATURES</a></li>
+            <li><a href="#" class="nav__link">PRICING</a></li>
+          </ul>
+
+          <a href="#" class="nav__login">LOGIN</a>
+        </div>
+
+        <!-- Toggle Menu -->
+        <img
+          src="images/icon-hamburger.svg"
+          alt=""
+          class="nav__toggle"
+          id="nav-toggle"
+        />
+        <!-- Close Menu -->
+        <img
+          src="images/icon-close.svg"
+          alt=""
+          class="nav__close hidden"
+          id="nav-close"
+        />
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--=============== INTRO ===============-->
+      <section class="intro__section section">
+        <div class="intro__container container grid">
+          <div class="intro__images">
+            <div class="intro__bg"></div>
+            <img
+              src="images/illustration-devices.svg"
+              alt="picture of our app"
+              class="intro__img"
+            />
+          </div>
+          <div class="intro__data">
+            <span class="intro__subtitle"
+              ><span>New</span>Monograph Dashboard</span
+            >
+            <h1 class="intro__title">Powerful insights into your team</h1>
+
+            <p class="intro__description">
+              Project planning and time tracking for agile teams
+            </p>
+
+            <div class="intro__buttons">
+              <button class="intro__button">Schedule a demo</button>
+              <button class="intro__button-transparent">
+                to see a live preview
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--==================== FOOTER ====================-->
+
+    <!--==================== SCRIPTS ====================-->
+    <script src="main.js"></script>
+  </body>
+</html>
